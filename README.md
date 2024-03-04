@@ -3,6 +3,9 @@
 
 Les étapes du TP :
 ****
+![image](https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/884468a3-56da-4311-b3bf-de330e5b1bea)
+
+****
 1- Importation des données dans FME
 ****
 2- Réprojection en 3857
