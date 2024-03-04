@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T01:27:20.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" version="24.0.0" etag="1AAG_ibpxvxwl7JcnvjI" type="device">
+  <diagram name="Page-1" id="0">
+    <mxGraphModel dx="954" dy="654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="IMPORTATION DES DONNÉES " Condition="Lamp does not produce light." id="3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;plain-red;glass=1;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+            <mxGeometry x="228" y="3" width="120" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="1" source="6" target="10" edge="1">
+          <mxGeometry x="340" y="250" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="JjUsV-CZTeSthfXpwBJj-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="REPROJECTION " Condition="Lamp connected to power outlet?" id="6">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#D6B656;strokeWidth=1;fillColor=#FFF2CC;gradientColor=#FFD966;spacing=6;spacingTop=-4;" parent="1" vertex="1">
+            <mxGeometry x="184" y="147" width="208" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;ANALYSE STATISTIQUE&lt;/div&gt;&lt;div&gt;DE LA DONNÉE QUANTITAIVE&lt;br&gt; &lt;/div&gt;" Condition="Check if bulb is broken." id="10">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;spacing=6;spacingTop=-4;" parent="1" vertex="1">
+            <mxGeometry x="52" y="227" width="136" height="111" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11" target="JjUsV-CZTeSthfXpwBJj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="JOINTURE DES ENTITÉS " Action="Repair other parts of lamp." id="11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=1;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="60" y="387" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-14" value="VISUALISATION EN POSTGIS " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="63" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="JjUsV-CZTeSthfXpwBJj-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="368" as="sourcePoint" />
+            <mxPoint x="437" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-21" value="NETTOYAGE DE LA DONNÉE QUALITATIVE " style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="193" y="280" width="195" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-30" value="VISUALISATION EN POSTGIS " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="237" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-33" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="255.5" y="414" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-34" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="251" y="234" width="70" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-35" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.4;dx=46;direction=south;notch=0;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="251" y="94" width="70" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-41" value="&lt;div&gt;FILTRE POUR LES NUAGES DE POINTS&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="381" y="231" width="152" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-42" value="COMBINAISON EN UN SEUL NUAGE DE POINT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="397" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-43" value="VISUALISATION EN POSTGIS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="397" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="343" as="sourcePoint" />
+            <mxPoint x="465" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.5" y="433" as="sourcePoint" />
+            <mxPoint x="459.5" y="482" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="459.5" y="459" />
+              <mxPoint x="459.5" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-46" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="340" y="250" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="348" y="203" as="sourcePoint" />
+            <mxPoint x="426.20000000000005" y="253.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-47" target="JjUsV-CZTeSthfXpwBJj-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-47" value="Création de lignes de contour pour la donnée 3D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="704" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-53" target="JjUsV-CZTeSthfXpwBJj-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-53" value="LISSAGE DE GÉOMÉTRIE " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="704" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-55" target="JjUsV-CZTeSthfXpwBJj-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-55" value="CREATION DE POLYGONES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="704" y="391" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-57" value="VISUALISATION EN POSTGIS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="704" y="477" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-61" target="JjUsV-CZTeSthfXpwBJj-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-61" value="RE-ECHANTILLONAGE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="557" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.673;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="JjUsV-CZTeSthfXpwBJj-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="214" as="sourcePoint" />
+            <mxPoint x="634" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-59" target="JjUsV-CZTeSthfXpwBJj-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-59" value="RASTÉRISATION " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="557" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-64" value="VISUALISATION EN POSTGIS RASTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="557" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjUsV-CZTeSthfXpwBJj-65" target="JjUsV-CZTeSthfXpwBJj-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjUsV-CZTeSthfXpwBJj-65" value="CONVERSION EN TUILE VECTORIELLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="557" y="399" width="120" height="39" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
