@@ -20,11 +20,7 @@ Les étapes du TP :
 ****
 7- Ré-échantillonnage du raster
 ****
-8- Création de séries de pyramides
-****
-9- Création de code SQL 
-****
-10- Conversion des données en tuile
+10- Conversion du raster en tuile Vectorielle
 ****
 11- Création ligne de contour 
 ****
@@ -36,13 +32,19 @@ Les étapes du TP :
 ****
 15- Combinaison en un seul nuage de point
 ****
-16- Visualisation dans différents formats
+16- Création de MNS
+****
+17- Visualisation dans différents formats
 ****
 # IMPORTATION DES DONNÉES :
 ****
-Donnée vectorielle quantitative : https://donnees.montreal.ca/dataset/2faa580d-d127-4a30-a79a-1ebf9d255f9b/resource/88bb6a18-54fa-4789-82e8-14888a933a4a/download/sondage-echo-donnees-2020.csv
+Donnée vectorielle quantitative :
+
+https://donnees.montreal.ca/dataset/2faa580d-d127-4a30-a79a-1ebf9d255f9b/resource/88bb6a18-54fa-4789-82e8-14888a933a4a/download/sondage-echo-donnees-2020.csv
 ****
-Donnée vectorielle qualitative : https://donnees.montreal.ca/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/5ca26973-7df6-472e-9bc0-5213a2445082/download/indice-equite-milieux-vie.csv
+Donnée vectorielle qualitative : 
+
+https://donnees.montreal.ca/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/5ca26973-7df6-472e-9bc0-5213a2445082/download/indice-equite-milieux-vie.csv
 ****
 Donnée vectorielle avec 3D : 
 ****
@@ -111,15 +113,22 @@ Filtrage pour les deux nuages de points avec un interval de 100
 ****
 Combinaison des deux nuages de points en un seul
 ****
+# Création de MNS:
+****
+Création de modèle numérique de terrain en se basant sur un algorithme de triangulation paramétrable.
+****
 # VISUALISATION DANS DIFFÉRENTS FORMATS :
 ****
 Visualistion de la donnée vectorielle quantitative en PostGis
 
 Visualisation de la donnée vectorielle qualitative en PostGis
 
-Visualisation de la donnée vectorielle avec 3D en PostGis
+Visualisation de la donnée vectorielle avec 3D en PostGis : ![image](https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/31ab71c3-8d6e-422d-b868-d38722ec8d81)
 
-Visualisation des nuages de points en PostGis
 
-Visualisation de l'image aérienne en PostGisRaster 
+Visualisation des nuages de points en PostGis : ![image](https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/1363887d-ea0a-43c8-9394-40ee5621c90c)
+
+
+Visualisation de l'image aérienne en PostGis :  ![image](https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/f450d7b2-5f03-4d59-bd01-bbfb688fd0c3)
+
 ****
