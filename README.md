@@ -121,7 +121,8 @@ Création de modèle numérique de terrain en se basant sur un algorithme de tri
 ****
 Visualistion de la donnée vectorielle quantitative en PostGis
 
-Visualisation de la donnée vectorielle qualitative en PostGis
+Visualisation de la donnée vectorielle qualitative en PostGis : <img width="739" alt="Capture d'écran 2024-03-13 154509" src="https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/6ff84e59-e206-4003-b4a2-54457f8d9910">
+
 
 Visualisation de la donnée vectorielle avec 3D en PostGis : ![image](https://github.com/ALOUCOULIBALY/TRAVAUX-PRATIQUE/assets/158978951/31ab71c3-8d6e-422d-b868-d38722ec8d81)
 
